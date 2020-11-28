@@ -31,6 +31,11 @@ const useStyles = makeStyles({
     alignItems: 'center',
     padding: '1em 0',
     marginRight: '1em',
+
+    ['@media only screen and (max-width: 768px)']: {
+      maxWidth: '100%',
+      width: 'auto',
+    },
   },
 });
 
